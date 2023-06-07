@@ -1,0 +1,26 @@
+{
+  "name": "serverwa",
+  "version": "1.0.0",
+  "description": "Praktikum Membangun Server Whatsapp Secara Mandiri",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Server",
+    "Whatsapp",
+    "NodeJS",
+    "Notifikasi",
+    "BOT"
+  ],
+  "author": "Rindhi Dwi Fibrianti",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^3.3.3",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.21.0"
+  }
+}
